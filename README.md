@@ -1,0 +1,3 @@
+# Julia Bug: Complex Number Handling in Conditional Statements
+
+This repository demonstrates a common issue in Julia when dealing with complex numbers within conditional statements. The `myfunction` in `bug.jl` works as expected for real numbers but fails when given a complex input. The solution, found in `bugSolution.jl`, addresses this by explicitly checking the real part of the complex number in the conditional statement.  The README provides context and details for reproducing and understanding this unexpected behavior. 
